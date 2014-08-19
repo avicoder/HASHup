@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="description" content="Hashup" />
+<meta charset=utf-8 />
+<title>Hashup - Free Online File Hasher </title>
+
+<script src="lib/jquery-2.0.js"></script>
+<script src="lib/nprogress.js"></script>
+<script src="lib/sha256.js"></script>
+<script src="lib/md5.js"></script>
+<script src="lib/sha1.js"></script>
+<script src="lib/sha512.js"></script>
+<script src="lib/sha3.js"></script>
+
+<script src="lib/lib-typedarrays-min.js"></script>
+
+<!-- style from http://bootswatch.com/simplex/ -->
+<link href="css/bootswatch.css" rel="stylesheet" type="text/css">
+<link href="css/gabbar.css" rel="stylesheet" type="text/css">
+<link href="css/nprogress.css" rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body id="js-dropbox">
+<div id="drop-mask"></div>
+
+<div class="container">
+
+  <div class="alert alert-info alert-box" id="js-drophere" style="display:none;"></div>
+
+  <div class="page-header hidden-smallheight">
+    <h1 style="text-align:center"><img src="1.png" >" Hashup "</h1>
+	
+	<p style="text-align:center;">Hash file without uploading ..</p>
+  </div>
+
+      <h4 class="help-block"><span style="color:green;">Pick or drag and drop </span>a file to compute its hash value.</h4>
+
+  <form role="form">
+    <div class="form-group">
+      <label for="file-input">Your file</label>
+      <input type="file" id="file-input" name="file"/>
+      <p id="filename"></p>
+    </div>
+
+    <div class="form-group">
+      <label for="output" class="control-label">Result</label>
+      <output for="file-input">
+        <textarea class="form-control" id="output" cols="35" rows="6" wrap="hard" readonly placeholder="hash value"></textarea>
+      </output>
+      <span class="help-block" id="todo-next"></span>
+    </div>
+  </form> HITS:
+ <img src="http://counter5.statcounterfree.com/private/freecounterstat.php?c=3996144e04973bfea075443d83c23351" border="0"  alt="free visitor counter">
+
+</div><!-- /.container -->
+
+<script src="gabbar.js"></script>
+
+
+        
+</body>
+</html>
